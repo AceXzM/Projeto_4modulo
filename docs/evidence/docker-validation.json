@@ -1,0 +1,143 @@
+﻿{
+    "checkedAt":  "2026-11-21T19:27:46.7364089Z",
+    "status":  "passed",
+    "checks":  [
+                   {
+                       "name":  "Compose válido",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Três serviços iniciados com saúde",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "backend sem porta publicada",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Rede de backend é interna: droz-control_application",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Rede de backend é interna: droz-control_database",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "mysql sem porta publicada",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Rede de mysql é interna: droz-control_database",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Nginx válido",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "API acessível pelo Nginx",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Fallback SPA em /login",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Fallback SPA em /register",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Fallback SPA em /departments/new",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Fallback SPA em /tasks/1/edit",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "GET /departments retorna 401",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "POST /auth/register retorna 400",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Cadastro sem expor hash",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "POST /auth/register retorna 409",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Login e perfil autenticado",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "PUT /auth/me retorna 400",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Perfil mantém e-mail e atualiza nome/senha",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Leitura do CRUD departments",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Paginação do CRUD departments",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Leitura do CRUD employees",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Paginação do CRUD employees",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Leitura do CRUD tasks",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Paginação do CRUD tasks",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Leitura do CRUD assets",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Paginação do CRUD assets",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Atualização dos quatro CRUDs",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "POST /tasks retorna 400",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Dados persistem após remover/recriar contêineres",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "PUT /departments/3 retorna 404",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "DELETE /departments/3 retorna 404",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Exclusão e prevenção de alterações em registros inexistentes",
+                       "passed":  true
+                   }
+               ],
+    "note":  "Somente dados sintéticos de teste; nenhum segredo é registrado."
+}
