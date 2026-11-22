@@ -1,9 +1,0 @@
-**/node_modules/
-**/dist/
-**/dist-tests/
-**/test-build/
-**/*.tsbuildinfo
-**/package-lock.json
-docs/evidence/
-.env
-.env.*
