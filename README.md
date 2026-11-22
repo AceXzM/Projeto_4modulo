@@ -1,4 +1,4 @@
-# Droz Control
+# Droz Control - Projeto_4modulo
 
 Projeto acadêmico e de portfólio do 2º período de ADS. Gestão genérica de departamentos, colaboradores, tarefas e ativos. Não é uma implantação para cliente real nem há alegação de entrevistas ou uso diário.
 
@@ -61,4 +61,3 @@ Os PDFs gerados em 15/11/2026 descrevem uma versão anterior. Para as regras e r
 
 
 O script é compatível com Windows PowerShell 5.1 e PowerShell 7. Não exige o comando pwsh. Execute na raiz do projeto.
-
